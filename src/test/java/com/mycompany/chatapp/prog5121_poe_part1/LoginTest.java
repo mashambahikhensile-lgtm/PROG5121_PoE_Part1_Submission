@@ -205,9 +205,6 @@ public class LoginTest {
                 "+27338968976"
         );
 
-        assertEquals(
-                true,
-                login.loginUser("kyl_1", "Ch&&sec@ke99!")
-        );
+        assertTrue(login.loginUser("kyl_1", "Ch&&sec@ke99!"));
     }
 }
